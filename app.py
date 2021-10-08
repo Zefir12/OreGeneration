@@ -10,9 +10,10 @@ pygame.font.init()
 # main gen settings
 map_resolution = 3.5  # lower values makes
 min_group_size = 5  # groups with lower field counts are removed
-perlin_noise_threshold = 0.65
+perlin_noise_threshold = 0.65  # above what value field will change to ore, at 0 it will be everything, at 1 nothing
 
 # press "k" to thicken
+# press "l" to reroll map
 
 # if set to 1 entire group will thicken, if its set to 0.5 every block has 50% chance to spawn neighbour
 random_spawn_chance_thickening = 0.3
